@@ -1,0 +1,16 @@
+Class : 20
+Augmented : 7
+Target : 3000
+
+Total_class_with_aug = 20 * 7 = 140
+Each_class = 3000 / 140 = 21
+
+
+List Augmented :
+1. Rotate 60 CCW
+2. Rotate 30 CCW + Zoom out
+3. Rotate 30 CW + Zoom out
+4. Rotate 60 CW
+5. Shear Left
+6. Shear Right
+7. Normal
