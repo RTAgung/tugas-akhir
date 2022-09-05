@@ -3,9 +3,9 @@ import cv2
 import numpy as np
 from scipy.spatial.distance import cdist
 
-BOW_FILE_PICKLE = "bow_dictionary.pkl"
-SCALER_WS_FILE_PICKLE = "scaler_with_sift.pkl"
-SVM_WS_FILE_PICKLE = "svm_with_sift_model.pkl"
+BOW_FILE_PICKLE = "model/bow_dictionary.pkl"
+SCALER_WS_FILE_PICKLE = "model/scaler_with_sift.pkl"
+SVM_WS_FILE_PICKLE = "model/svm_with_sift_model.pkl"
 
 hanacaraka = ('ba','ca','da','dha','ga','ha','ja','ka','la','ma','na','nga','nya','pa','ra','sa','ta','tha','wa','ya')
 
