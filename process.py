@@ -62,7 +62,7 @@ def create_feature_bow(image_descriptor, bow, num_cluster):
 def extract_feature(image):
     img_descriptor = extract_sift_descriptor(image)
     
-    num_cluster = 500
+    num_cluster = 750
     bow = load_file_pickle(BOW_FILE_PICKLE)
     
     img_feature = create_feature_bow(img_descriptor, bow, num_cluster)
