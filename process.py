@@ -86,8 +86,9 @@ def predict_process(filepath):
     
     # Predict SVM
     svm_model = load_file_pickle(SVM_WS_FILE_PICKLE)
-    result_predict = svm_model.predict(feature_scale)
-    accuracy = 80
+    result_predict = svm_model.predict_proba(feature_scale)
+    result_label = hanacaraka[result_predict.argmax()]
+    result_accuracy = round(result_predict.max() * 100, 2)
     
-    return result_predict, accuracy
+    return result_label, result_accuracy
 # ============================================================================================
