@@ -1,0 +1,7 @@
+flask
+gunicorn
+opencv-contrib-python-headless
+pickle
+scikit-learn
+scipy
+numpy
