@@ -17,7 +17,7 @@ def load_file_pickle(filename):
 # Load Image File ==================================================================================
 def import_image(file) :
     image = cv2.imread(file)
-    image = cv2.bitwise_not(image)
+    # image = cv2.bitwise_not(image)
     return image
 # ============================================================================================
 
